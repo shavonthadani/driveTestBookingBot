@@ -15,9 +15,9 @@ import pyttsx3
 import geckodriver_autoinstaller
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 city = 0
-license_num = "T3133-70400-31404"
+license_num = "edit this"
 
-license_exp = "2024/08/20"
+license_exp = "edit this"
 
 def countdown():
     print("Countdown started")
