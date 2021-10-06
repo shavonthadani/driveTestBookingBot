@@ -51,7 +51,7 @@ def __main__():
     rebook(driver)
     reschedule(driver)
     pickDate(driver,"August")
-    #find_avail_days(driver)
+    find_avail_days(driver)
     time.sleep(1000)
     return
 
@@ -64,8 +64,8 @@ def waitForPage(driver, delay,xpath):
         driver.quit()
 
 def login(driver):
-    #driver.find_element_by_name("emailAddress").send_keys(email)
-    #driver.find_element_by_name("confirmEmailAddress").send_keys(email)
+    driver.find_element_by_name("emailAddress").send_keys(email)
+    driver.find_element_by_name("confirmEmailAddress").send_keys(email)
     time.sleep(60)
     while True:
         try:
